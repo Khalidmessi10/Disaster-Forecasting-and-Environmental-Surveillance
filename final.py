@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 def load_data():
     # Load your dataset here
     # For example:
-    data = pd.read_csv("C:/Users/91739/OneDrive/Desktop/hackathon/sketch_mar14a/sensor_data.csv")
+    data = pd.read_csv("sensor_data.csv")
     return data
 
 # Main function

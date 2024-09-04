@@ -49,22 +49,31 @@ This project is a Disaster Detection and Prediction System developed using Ardui
 3. Execute the `tracker.py` script to start collecting sensor data:
    ```bash
    python tracker.py
-4.##🚀 Launch the Streamlit App:
+   
+## 4. 🚀 Launch the Streamlit App:
 
-Open a terminal in the project directory.
-Run the Streamlit application to visualize the collected data:
+- Open a terminal in the project directory.
+- Run the Streamlit application to visualize the collected data:
   ```bash
   streamlit run final.py
 
-5.##🚀 Usage
-📡 Data Collection:
-The tracker.py script continuously collects sensor data from the Arduino Uno and appends it to the sensor_data.csv file.
-📊 Data Visualization:
-The Streamlit app (final.py) reads data from sensor_data.csv and provides interactive analytics and visualizations.
-📂 File Descriptions
-final.py:
-A Streamlit application that reads the sensor_data.csv file and provides interactive data visualizations using Plotly, Matplotlib, and Seaborn.
-sensor_data.csv:
-The CSV file where sensor data is stored. Each row represents a set of readings from the sensors at a given time.
-tracker.py:
-A Python script that collects real-time data from the sensors via the Arduino Uno and appends it to the sensor_data.csv file in a predefined format.
+
+## 5. 🚀 Usage
+
+### 📡 Data Collection:
+- The `tracker.py` script continuously collects sensor data from the Arduino Uno and appends it to the `sensor_data.csv` file.
+
+### 📊 Data Visualization:
+- The Streamlit app (`final.py`) reads data from `sensor_data.csv` and provides interactive analytics and visualizations.
+
+## 📂 File Descriptions
+
+- **`final.py`:** 
+  - A Streamlit application that reads the `sensor_data.csv` file and provides interactive data visualizations using Plotly, Matplotlib, and Seaborn.
+  
+- **`sensor_data.csv`:**
+  - The CSV file where sensor data is stored. Each row represents a set of readings from the sensors at a given time.
+  
+- **`tracker.py`:**
+  - A Python script that collects real-time data from the sensors via the Arduino Uno and appends it to the `sensor_data.csv` file in a predefined format.
+

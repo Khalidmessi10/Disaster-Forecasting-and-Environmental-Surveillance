@@ -76,4 +76,10 @@ This project is a Disaster Detection and Prediction System developed using Ardui
   
 - **`tracker.py`:**
   - A Python script that collects real-time data from the sensors via the Arduino Uno and appends it to the `sensor_data.csv` file in a predefined format.
+ 
+    ```python
+  x=(lambda y:y*4)
+print(x(5))
+
+    ```
 
